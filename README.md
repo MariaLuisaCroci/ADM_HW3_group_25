@@ -1,4 +1,4 @@
-#  -------------------------------------------------------ADM_HW3_group_25----------------------------------------------------------------
+#  ------------------------------ADM_HW3_group_25--------------------------------
 ### Jad Zouwayhed, Maria Luisa Croci, Elena Lavinia Diaconu
 
 ### Creating different models of Search Engine in order to explore Airbnb properties in the Texas state. 
