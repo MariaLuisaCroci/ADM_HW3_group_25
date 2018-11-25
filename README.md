@@ -8,7 +8,11 @@
 </p>
 
 The repository consists of the following files:
-1. __`name.ipynb`__: 
+1. __`Homework_3.ipynb`__: 
      > A Jupyter notebook which provides the following: 
-2. __`map.ipynb`__: 
+2. __`functions.py`__:
+     > 
+3. __`map1.html`__: 
      > A Jupyter notebook 
+4. __`map2.html`__: 
+     > A Jupyter notebook      
