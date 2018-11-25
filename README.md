@@ -19,3 +19,4 @@ The repository consists of the following files:
 5. __`map coordinates.html`__: 
      > visualize your houses on the map from the coordinates (29.829352, -95.081549) with a range of 4 km
  
+N.B. For viewing the maps in html format just copy and paste their links into the following website http://nbviewer.jupyter.org/
