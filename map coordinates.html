@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_a16e121b876344aba99bce42c06d2172 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_a16e121b876344aba99bce42c06d2172" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_a16e121b876344aba99bce42c06d2172 = L.map(
+        'map_a16e121b876344aba99bce42c06d2172', {
+        center: [29.829352, -95.081549],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_b10c444af19d44b9bee83dc9f42b268f = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_a16e121b876344aba99bce42c06d2172);
+    
+
+            var circle_7476aafb114146569ffeb6c903a1d8cf = L.circle(
+                [29.829352, -95.081549],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3186cc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4000,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a16e121b876344aba99bce42c06d2172);
+            
+    
+        var marker_11f97ff5e26c440ab81e6f03292c1bfd = L.marker(
+            [29.829352, -95.081549],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_a16e121b876344aba99bce42c06d2172);
+        
+    
+
+                var icon_d8045d72014a4875aa3a48c680292c42 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11f97ff5e26c440ab81e6f03292c1bfd.setIcon(icon_d8045d72014a4875aa3a48c680292c42);
+            
+    
+            var marker_cluster_bde1007699ca47de95d0074c83065fb5 = L.markerClusterGroup({});
+            map_a16e121b876344aba99bce42c06d2172.addLayer(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+            
+    
+        var marker_730b402ca0864cf29fc56737bc7339ab = L.marker(
+            [29.829352227214898, -95.0815494887563],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_31adc2b4487342e2ae1b04fd0d298240 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e1f66a8d3c004542a1b07013f6b6c773 = $('<div id="html_e1f66a8d3c004542a1b07013f6b6c773" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/16926307?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_31adc2b4487342e2ae1b04fd0d298240.setContent(html_e1f66a8d3c004542a1b07013f6b6c773);
+            
+
+            marker_730b402ca0864cf29fc56737bc7339ab.bindPopup(popup_31adc2b4487342e2ae1b04fd0d298240)
+            ;
+
+            
+        
+    
+        marker_730b402ca0864cf29fc56737bc7339ab.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_8f8233557d2c41cfb0e9bca478c7dd41 = L.marker(
+            [29.8262783359522, -95.0782393406197],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_2c81b1ca418a4ddc983279b8b21f8380 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2d196f0c365d49ca8222df77c5a196f7 = $('<div id="html_2d196f0c365d49ca8222df77c5a196f7" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273801?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_2c81b1ca418a4ddc983279b8b21f8380.setContent(html_2d196f0c365d49ca8222df77c5a196f7);
+            
+
+            marker_8f8233557d2c41cfb0e9bca478c7dd41.bindPopup(popup_2c81b1ca418a4ddc983279b8b21f8380)
+            ;
+
+            
+        
+    
+        marker_8f8233557d2c41cfb0e9bca478c7dd41.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_ff01362ab258463e9a445c78d6f41627 = L.marker(
+            [29.826385860932998, -95.0780541952061],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_d6234cfde3384a538cdb20d4dea6f39c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e59ac295b304dea9ddb9a2f3da8c2f8 = $('<div id="html_5e59ac295b304dea9ddb9a2f3da8c2f8" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273836?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_d6234cfde3384a538cdb20d4dea6f39c.setContent(html_5e59ac295b304dea9ddb9a2f3da8c2f8);
+            
+
+            marker_ff01362ab258463e9a445c78d6f41627.bindPopup(popup_d6234cfde3384a538cdb20d4dea6f39c)
+            ;
+
+            
+        
+    
+        marker_ff01362ab258463e9a445c78d6f41627.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_ef7d9d3b387349cba752df8955a44eed = L.marker(
+            [29.829352227214898, -95.0815494887563],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_643bc10c8002425eac7dd1163ea1e526 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f8b34407b5284d9bbceaa1912aaa6a85 = $('<div id="html_f8b34407b5284d9bbceaa1912aaa6a85" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/16926307?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_643bc10c8002425eac7dd1163ea1e526.setContent(html_f8b34407b5284d9bbceaa1912aaa6a85);
+            
+
+            marker_ef7d9d3b387349cba752df8955a44eed.bindPopup(popup_643bc10c8002425eac7dd1163ea1e526)
+            ;
+
+            
+        
+    
+        marker_ef7d9d3b387349cba752df8955a44eed.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_8435d91fe18e4ad8955621e50acddab7 = L.marker(
+            [29.827858025489803, -95.081412395216],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_5c323d0098cf45608ce8bd2c4bd32217 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6d76ff8818204891bb1441bc5eaad3b8 = $('<div id="html_6d76ff8818204891bb1441bc5eaad3b8" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/10860504?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_5c323d0098cf45608ce8bd2c4bd32217.setContent(html_6d76ff8818204891bb1441bc5eaad3b8);
+            
+
+            marker_8435d91fe18e4ad8955621e50acddab7.bindPopup(popup_5c323d0098cf45608ce8bd2c4bd32217)
+            ;
+
+            
+        
+    
+        marker_8435d91fe18e4ad8955621e50acddab7.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_15c8ec0359e6450083da66fec9e32055 = L.marker(
+            [29.827858025489803, -95.081412395216],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_f725e4e89a2b4208ad80ed14343e6998 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f0303b481fda408c8f05295e20a473e7 = $('<div id="html_f0303b481fda408c8f05295e20a473e7" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/10860504?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_f725e4e89a2b4208ad80ed14343e6998.setContent(html_f0303b481fda408c8f05295e20a473e7);
+            
+
+            marker_15c8ec0359e6450083da66fec9e32055.bindPopup(popup_f725e4e89a2b4208ad80ed14343e6998)
+            ;
+
+            
+        
+    
+        marker_15c8ec0359e6450083da66fec9e32055.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_f8b79e86a9ea40ee88ad770016b9a750 = L.marker(
+            [29.8277509651674, -95.0778432642514],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_b1943bde618341449ec6c22132ba0bc3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5520a804a7264195b138d1e7e3cac637 = $('<div id="html_5520a804a7264195b138d1e7e3cac637" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273888?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_b1943bde618341449ec6c22132ba0bc3.setContent(html_5520a804a7264195b138d1e7e3cac637);
+            
+
+            marker_f8b79e86a9ea40ee88ad770016b9a750.bindPopup(popup_b1943bde618341449ec6c22132ba0bc3)
+            ;
+
+            
+        
+    
+        marker_f8b79e86a9ea40ee88ad770016b9a750.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_01d1e9644057419ca3c24f039bbf2e03 = L.marker(
+            [29.829619955492102, -95.0828084464126],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_f57edb107d2742248c970b6535613052 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d9e451b2ff7d4d3b81b74948173a7c4e = $('<div id="html_d9e451b2ff7d4d3b81b74948173a7c4e" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/14655274?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_f57edb107d2742248c970b6535613052.setContent(html_d9e451b2ff7d4d3b81b74948173a7c4e);
+            
+
+            marker_01d1e9644057419ca3c24f039bbf2e03.bindPopup(popup_f57edb107d2742248c970b6535613052)
+            ;
+
+            
+        
+    
+        marker_01d1e9644057419ca3c24f039bbf2e03.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_9c73ce5733ad41e3ba0a3231f70020dd = L.marker(
+            [29.8270304216407, -95.06178819752171],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_058d1f0e3fd74b469f5300d184b5f91f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_efcf08d97fa248f59a9127d29c75ac1e = $('<div id="html_efcf08d97fa248f59a9127d29c75ac1e" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/16558556?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_058d1f0e3fd74b469f5300d184b5f91f.setContent(html_efcf08d97fa248f59a9127d29c75ac1e);
+            
+
+            marker_9c73ce5733ad41e3ba0a3231f70020dd.bindPopup(popup_058d1f0e3fd74b469f5300d184b5f91f)
+            ;
+
+            
+        
+    
+        marker_9c73ce5733ad41e3ba0a3231f70020dd.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_80cb3cdf57d24419803f5a9029e4d3a9 = L.marker(
+            [29.829619955492102, -95.0828084464126],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_6d6d1741cc5046439ac8c463709924f4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dcd0b2e4ee1b4e218c2011ffd90448ca = $('<div id="html_dcd0b2e4ee1b4e218c2011ffd90448ca" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/14655274?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_6d6d1741cc5046439ac8c463709924f4.setContent(html_dcd0b2e4ee1b4e218c2011ffd90448ca);
+            
+
+            marker_80cb3cdf57d24419803f5a9029e4d3a9.bindPopup(popup_6d6d1741cc5046439ac8c463709924f4)
+            ;
+
+            
+        
+    
+        marker_80cb3cdf57d24419803f5a9029e4d3a9.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_c7e40501d2594843ba07e3bbe22c2d32 = L.marker(
+            [29.829236468063804, -95.05496087505729],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_7629323d0b194f68982e56e39fdd1df6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_26ce24dd55844551bee68199cdca5fda = $('<div id="html_26ce24dd55844551bee68199cdca5fda" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/17889458?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_7629323d0b194f68982e56e39fdd1df6.setContent(html_26ce24dd55844551bee68199cdca5fda);
+            
+
+            marker_c7e40501d2594843ba07e3bbe22c2d32.bindPopup(popup_7629323d0b194f68982e56e39fdd1df6)
+            ;
+
+            
+        
+    
+        marker_c7e40501d2594843ba07e3bbe22c2d32.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_86c7e55e21cb41a2ba238272d3a384b3 = L.marker(
+            [29.8270304216407, -95.06178819752171],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_87e1660dc83545e1a35860216f81e3c6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b97a64957094929bb34faf95421a854 = $('<div id="html_7b97a64957094929bb34faf95421a854" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/16558556?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_87e1660dc83545e1a35860216f81e3c6.setContent(html_7b97a64957094929bb34faf95421a854);
+            
+
+            marker_86c7e55e21cb41a2ba238272d3a384b3.bindPopup(popup_87e1660dc83545e1a35860216f81e3c6)
+            ;
+
+            
+        
+    
+        marker_86c7e55e21cb41a2ba238272d3a384b3.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_7ae169432fc247b682c817bfc5baf750 = L.marker(
+            [29.806786627283103, -95.0569078042143],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_9d6de095472c4984ba51e437a898645f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b797e67ec5f348da82df6aabc42e0ecf = $('<div id="html_b797e67ec5f348da82df6aabc42e0ecf" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/6937368?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_9d6de095472c4984ba51e437a898645f.setContent(html_b797e67ec5f348da82df6aabc42e0ecf);
+            
+
+            marker_7ae169432fc247b682c817bfc5baf750.bindPopup(popup_9d6de095472c4984ba51e437a898645f)
+            ;
+
+            
+        
+    
+        marker_7ae169432fc247b682c817bfc5baf750.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_b17bdc55a5f64e86af5021dee58efc56 = L.marker(
+            [29.828388595054697, -95.0825998236063],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_0a1c3a79daf148418ffee6eb2fb1eafa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_34a3b20bc10f4ca1a273aeb4b4a42f51 = $('<div id="html_34a3b20bc10f4ca1a273aeb4b4a42f51" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/14716111?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_0a1c3a79daf148418ffee6eb2fb1eafa.setContent(html_34a3b20bc10f4ca1a273aeb4b4a42f51);
+            
+
+            marker_b17bdc55a5f64e86af5021dee58efc56.bindPopup(popup_0a1c3a79daf148418ffee6eb2fb1eafa)
+            ;
+
+            
+        
+    
+        marker_b17bdc55a5f64e86af5021dee58efc56.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_8c658a1c5f6c4a1282547e6716be96f1 = L.marker(
+            [29.8365504768883, -95.0683178631156],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_c7b8ed89f4e14114bcbf6eff300ba13a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6316b6307629480cbe8aa241321bd3f8 = $('<div id="html_6316b6307629480cbe8aa241321bd3f8" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/18839184?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_c7b8ed89f4e14114bcbf6eff300ba13a.setContent(html_6316b6307629480cbe8aa241321bd3f8);
+            
+
+            marker_8c658a1c5f6c4a1282547e6716be96f1.bindPopup(popup_c7b8ed89f4e14114bcbf6eff300ba13a)
+            ;
+
+            
+        
+    
+        marker_8c658a1c5f6c4a1282547e6716be96f1.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_93830189b3694b0da3a40fbd79c54a90 = L.marker(
+            [29.826385860932998, -95.0780541952061],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_560a8a4f463c46a6a10224957691da1e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_562bc727fae148009043436d926d5cff = $('<div id="html_562bc727fae148009043436d926d5cff" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273836?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_560a8a4f463c46a6a10224957691da1e.setContent(html_562bc727fae148009043436d926d5cff);
+            
+
+            marker_93830189b3694b0da3a40fbd79c54a90.bindPopup(popup_560a8a4f463c46a6a10224957691da1e)
+            ;
+
+            
+        
+    
+        marker_93830189b3694b0da3a40fbd79c54a90.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_c035f007b4f3458a9a5c792ab6bf52b7 = L.marker(
+            [29.829352227214898, -95.0815494887563],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_d6f636243d734d61b7e5b918ea0a67c4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae19344432874c6b81e252fd9f3ae5ef = $('<div id="html_ae19344432874c6b81e252fd9f3ae5ef" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/16926307?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_d6f636243d734d61b7e5b918ea0a67c4.setContent(html_ae19344432874c6b81e252fd9f3ae5ef);
+            
+
+            marker_c035f007b4f3458a9a5c792ab6bf52b7.bindPopup(popup_d6f636243d734d61b7e5b918ea0a67c4)
+            ;
+
+            
+        
+    
+        marker_c035f007b4f3458a9a5c792ab6bf52b7.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_2175a1f901094916bb87944a35cfdb28 = L.marker(
+            [29.827858025489803, -95.081412395216],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_5e8b089ab78c4ff9bdfc664a5ef55086 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_37be065ba68a4007a433958c00eb3c97 = $('<div id="html_37be065ba68a4007a433958c00eb3c97" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/10860504?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_5e8b089ab78c4ff9bdfc664a5ef55086.setContent(html_37be065ba68a4007a433958c00eb3c97);
+            
+
+            marker_2175a1f901094916bb87944a35cfdb28.bindPopup(popup_5e8b089ab78c4ff9bdfc664a5ef55086)
+            ;
+
+            
+        
+    
+        marker_2175a1f901094916bb87944a35cfdb28.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_171f377e04df4378bfac8b81aeef5bed = L.marker(
+            [29.8277509651674, -95.0778432642514],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_23db4fdff4694c6abb16ee9eb2136dbf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b0c25140490e4bd9846b8409981eef95 = $('<div id="html_b0c25140490e4bd9846b8409981eef95" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273888?location=Channelview%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_23db4fdff4694c6abb16ee9eb2136dbf.setContent(html_b0c25140490e4bd9846b8409981eef95);
+            
+
+            marker_171f377e04df4378bfac8b81aeef5bed.bindPopup(popup_23db4fdff4694c6abb16ee9eb2136dbf)
+            ;
+
+            
+        
+    
+        marker_171f377e04df4378bfac8b81aeef5bed.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_30bc69e1e6224851ba3e58af7c938764 = L.marker(
+            [29.829619955492102, -95.0828084464126],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_bad9e5d30a714b129f701b14e9708967 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e81e55fdfce341608f8910cff619c5f2 = $('<div id="html_e81e55fdfce341608f8910cff619c5f2" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/14655274?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_bad9e5d30a714b129f701b14e9708967.setContent(html_e81e55fdfce341608f8910cff619c5f2);
+            
+
+            marker_30bc69e1e6224851ba3e58af7c938764.bindPopup(popup_bad9e5d30a714b129f701b14e9708967)
+            ;
+
+            
+        
+    
+        marker_30bc69e1e6224851ba3e58af7c938764.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_a40cac549b32477b85ba4639458a4367 = L.marker(
+            [29.8365504768883, -95.0683178631156],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_450785922c69462b80e4e8bf0739e6b3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c706e635ed6c41e6b550e8503b67dead = $('<div id="html_c706e635ed6c41e6b550e8503b67dead" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/18839184?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_450785922c69462b80e4e8bf0739e6b3.setContent(html_c706e635ed6c41e6b550e8503b67dead);
+            
+
+            marker_a40cac549b32477b85ba4639458a4367.bindPopup(popup_450785922c69462b80e4e8bf0739e6b3)
+            ;
+
+            
+        
+    
+        marker_a40cac549b32477b85ba4639458a4367.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_9adf5025f1bc4c4bb1891f27fae291c6 = L.marker(
+            [29.8277509651674, -95.0778432642514],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_e7145235b0364424ac23dcb5b7f69434 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_26c4a600c7074154b248d886730612cd = $('<div id="html_26c4a600c7074154b248d886730612cd" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273888?location=Baytown%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_e7145235b0364424ac23dcb5b7f69434.setContent(html_26c4a600c7074154b248d886730612cd);
+            
+
+            marker_9adf5025f1bc4c4bb1891f27fae291c6.bindPopup(popup_e7145235b0364424ac23dcb5b7f69434)
+            ;
+
+            
+        
+    
+        marker_9adf5025f1bc4c4bb1891f27fae291c6.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_71cc62a67bad4a01bfa8c527c95e7d55 = L.marker(
+            [29.8365504768883, -95.0683178631156],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_b87f2cc288be4ce88c93481deae8ecdc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c6b816a365ad417a86494d46a6647ebe = $('<div id="html_c6b816a365ad417a86494d46a6647ebe" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/18839184?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_b87f2cc288be4ce88c93481deae8ecdc.setContent(html_c6b816a365ad417a86494d46a6647ebe);
+            
+
+            marker_71cc62a67bad4a01bfa8c527c95e7d55.bindPopup(popup_b87f2cc288be4ce88c93481deae8ecdc)
+            ;
+
+            
+        
+    
+        marker_71cc62a67bad4a01bfa8c527c95e7d55.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_3ddba8de91ae4edfa09c72d93029d5a4 = L.marker(
+            [29.826385860932998, -95.0780541952061],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_fb167aa0e00f47c382b097ee7bbdaac7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_59948790abd647128168e9935e160af9 = $('<div id="html_59948790abd647128168e9935e160af9" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273836?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_fb167aa0e00f47c382b097ee7bbdaac7.setContent(html_59948790abd647128168e9935e160af9);
+            
+
+            marker_3ddba8de91ae4edfa09c72d93029d5a4.bindPopup(popup_fb167aa0e00f47c382b097ee7bbdaac7)
+            ;
+
+            
+        
+    
+        marker_3ddba8de91ae4edfa09c72d93029d5a4.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_94a561c0ebf7449d8d072f3e44de73ea = L.marker(
+            [29.829236468063804, -95.05496087505729],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_8dc8b08953864377b35a868c15ccb3a8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ea99e853bb7946f5a20ba1b9542b8d49 = $('<div id="html_ea99e853bb7946f5a20ba1b9542b8d49" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/17889458?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_8dc8b08953864377b35a868c15ccb3a8.setContent(html_ea99e853bb7946f5a20ba1b9542b8d49);
+            
+
+            marker_94a561c0ebf7449d8d072f3e44de73ea.bindPopup(popup_8dc8b08953864377b35a868c15ccb3a8)
+            ;
+
+            
+        
+    
+        marker_94a561c0ebf7449d8d072f3e44de73ea.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_097bc66413814ab1ba5535808c1a5d2c = L.marker(
+            [29.806786627283103, -95.0569078042143],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_6c6e93772614444990caa46e216bd35a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_26da8d5095104ecaa3473513734fb50e = $('<div id="html_26da8d5095104ecaa3473513734fb50e" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/6937368?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_6c6e93772614444990caa46e216bd35a.setContent(html_26da8d5095104ecaa3473513734fb50e);
+            
+
+            marker_097bc66413814ab1ba5535808c1a5d2c.bindPopup(popup_6c6e93772614444990caa46e216bd35a)
+            ;
+
+            
+        
+    
+        marker_097bc66413814ab1ba5535808c1a5d2c.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_cb75406b54f4428c8aa979aa4f2b3503 = L.marker(
+            [29.829236468063804, -95.05496087505729],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_759a97fd4c0441318893a5612e2ee45a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_53a436c54bb14bc0a1e159416b6354c5 = $('<div id="html_53a436c54bb14bc0a1e159416b6354c5" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/17889458?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_759a97fd4c0441318893a5612e2ee45a.setContent(html_53a436c54bb14bc0a1e159416b6354c5);
+            
+
+            marker_cb75406b54f4428c8aa979aa4f2b3503.bindPopup(popup_759a97fd4c0441318893a5612e2ee45a)
+            ;
+
+            
+        
+    
+        marker_cb75406b54f4428c8aa979aa4f2b3503.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_f25e5f20065d4c089d0b8b073562bf76 = L.marker(
+            [29.828388595054697, -95.0825998236063],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_a4e4adc5030d4747a63b5ef2a6f3c683 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_373d99c04f394b8aa7cca136864b7f2b = $('<div id="html_373d99c04f394b8aa7cca136864b7f2b" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/14716111?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_a4e4adc5030d4747a63b5ef2a6f3c683.setContent(html_373d99c04f394b8aa7cca136864b7f2b);
+            
+
+            marker_f25e5f20065d4c089d0b8b073562bf76.bindPopup(popup_a4e4adc5030d4747a63b5ef2a6f3c683)
+            ;
+
+            
+        
+    
+        marker_f25e5f20065d4c089d0b8b073562bf76.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_035bd3dfa3e84199850dd17c4a8dcf27 = L.marker(
+            [29.8277509651674, -95.0778432642514],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_ec0e4259daa2426990bf577ee77cfeb3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_de952ea4e35946179616cc1b99735056 = $('<div id="html_de952ea4e35946179616cc1b99735056" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273888?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_ec0e4259daa2426990bf577ee77cfeb3.setContent(html_de952ea4e35946179616cc1b99735056);
+            
+
+            marker_035bd3dfa3e84199850dd17c4a8dcf27.bindPopup(popup_ec0e4259daa2426990bf577ee77cfeb3)
+            ;
+
+            
+        
+    
+        marker_035bd3dfa3e84199850dd17c4a8dcf27.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_5e4f406eb8924b44a27527d7c364fc66 = L.marker(
+            [29.806786627283103, -95.0569078042143],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_4048d72554a240fe970ebde8bafd210b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0daafa41cb4d4495b429af0f50fc64b1 = $('<div id="html_0daafa41cb4d4495b429af0f50fc64b1" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/6937368?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_4048d72554a240fe970ebde8bafd210b.setContent(html_0daafa41cb4d4495b429af0f50fc64b1);
+            
+
+            marker_5e4f406eb8924b44a27527d7c364fc66.bindPopup(popup_4048d72554a240fe970ebde8bafd210b)
+            ;
+
+            
+        
+    
+        marker_5e4f406eb8924b44a27527d7c364fc66.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_7aa7d87d66ba4eab8f2f704e7a84bf2b = L.marker(
+            [29.8262783359522, -95.0782393406197],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_b3b82ee87e1c426b9dc9156dc0583b22 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_def4d90ae31f47ceb1f806d5776e5b38 = $('<div id="html_def4d90ae31f47ceb1f806d5776e5b38" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273801?location=Beach%20City%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_b3b82ee87e1c426b9dc9156dc0583b22.setContent(html_def4d90ae31f47ceb1f806d5776e5b38);
+            
+
+            marker_7aa7d87d66ba4eab8f2f704e7a84bf2b.bindPopup(popup_b3b82ee87e1c426b9dc9156dc0583b22)
+            ;
+
+            
+        
+    
+        marker_7aa7d87d66ba4eab8f2f704e7a84bf2b.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_e7e2a137913f406e8bde07199c6d0655 = L.marker(
+            [29.8262783359522, -95.0782393406197],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_ffb8d7191a72485c8aa7bd9bc6e81b8b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3b6eaea0a1574c9784af836ea639e8d1 = $('<div id="html_3b6eaea0a1574c9784af836ea639e8d1" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273801?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_ffb8d7191a72485c8aa7bd9bc6e81b8b.setContent(html_3b6eaea0a1574c9784af836ea639e8d1);
+            
+
+            marker_e7e2a137913f406e8bde07199c6d0655.bindPopup(popup_ffb8d7191a72485c8aa7bd9bc6e81b8b)
+            ;
+
+            
+        
+    
+        marker_e7e2a137913f406e8bde07199c6d0655.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_1021fce026fe463ba4cc8401949e0b50 = L.marker(
+            [29.828388595054697, -95.0825998236063],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_af94fc9bef06419498fdf8091f7ba7b4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4a0764736d724a7b9881704427f13465 = $('<div id="html_4a0764736d724a7b9881704427f13465" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/14716111?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_af94fc9bef06419498fdf8091f7ba7b4.setContent(html_4a0764736d724a7b9881704427f13465);
+            
+
+            marker_1021fce026fe463ba4cc8401949e0b50.bindPopup(popup_af94fc9bef06419498fdf8091f7ba7b4)
+            ;
+
+            
+        
+    
+        marker_1021fce026fe463ba4cc8401949e0b50.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_0539394d8ab044e1947bc93ec30fb043 = L.marker(
+            [29.8277509651674, -95.0778432642514],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_95389586431740e7839dc5d1eb5a52ee = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_115d0920c21f457faeaab61d253c857e = $('<div id="html_115d0920c21f457faeaab61d253c857e" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/19273888?location=Atascocita%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_95389586431740e7839dc5d1eb5a52ee.setContent(html_115d0920c21f457faeaab61d253c857e);
+            
+
+            marker_0539394d8ab044e1947bc93ec30fb043.bindPopup(popup_95389586431740e7839dc5d1eb5a52ee)
+            ;
+
+            
+        
+    
+        marker_0539394d8ab044e1947bc93ec30fb043.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_cbc399b6783944ccb2cc9c1e90a28342 = L.marker(
+            [29.8270304216407, -95.06178819752171],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_bde1007699ca47de95d0074c83065fb5);
+        
+    
+            var popup_69c6112b1ce7412786b3a7c4c61b06c9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bb0d0a51a8bd4fec9156f2d35d9e9fca = $('<div id="html_bb0d0a51a8bd4fec9156f2d35d9e9fca" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/16558556?location=Anahuac%2C%20TX"target="_blank"> [Click the link for info] </a></div>')[0];
+                popup_69c6112b1ce7412786b3a7c4c61b06c9.setContent(html_bb0d0a51a8bd4fec9156f2d35d9e9fca);
+            
+
+            marker_cbc399b6783944ccb2cc9c1e90a28342.bindPopup(popup_69c6112b1ce7412786b3a7c4c61b06c9)
+            ;
+
+            
+        
+    
+        marker_cbc399b6783944ccb2cc9c1e90a28342.bindTooltip(
+            '<div>'
+            + 'Click me!' + '</div>',
+            {"sticky": true}
+        );
+        
+</script>
