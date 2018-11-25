@@ -4,7 +4,7 @@
 ### Creating different models of Search Engine in order to explore airbnb in the Texas state. 
 
 <p align="center">
-  <img width="460" height="360" src="http://rentmoreweeks.com/wp-content/uploads/2016/05/airbnb-peter-griffin.jpg">
+  <img width="460" height="250" src="http://rentmoreweeks.com/wp-content/uploads/2016/05/airbnb-peter-griffin.jpg">
 </p>
 
 
