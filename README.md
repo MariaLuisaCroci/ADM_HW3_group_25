@@ -1,4 +1,4 @@
-#  ADM HW3 Group 25
+# AIRBNB SEARCH ENGINE
 ### Jad Zouwayhed, Maria Luisa Croci, Elena Lavinia Diaconu
 
 ### Creating different models of Search Engine in order to explore Airbnb properties in Texas. 
